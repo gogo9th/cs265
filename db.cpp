@@ -1006,7 +1006,7 @@ void load(string filename)
 		gettimeofday(&end_time,NULL);
 	double delay = ((end_time.tv_sec * 1000000 + end_time.tv_usec) - (start_time.tv_sec * 1000000 + start_time.tv_usec))/1000000.0;
 		//printf("%f sec (%d reads, %d writes), %d items, %f op/s\n", delay, read_total, write_total, all_elements, ops/delay);
-		      printf("%d op/s\n", (int)(ops/delay));
+		      printf("%d op/s\n", (int)(ops/delay/1000));
 		myfile.close();
   }
 
