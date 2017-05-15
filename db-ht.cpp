@@ -463,7 +463,6 @@ void Get_Hashtable_And_Disk(int key)
 		cout << endl;
 		return;
 	}
-cout << "Not Found" << endl;
 	int level = 1;
 	unsigned char bloom_filter[BLOOM_BUCKET_NUM];
 
