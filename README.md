@@ -1,8 +1,11 @@
 # cs265 System Project : A Revolutionary LSM Tree
 
 [Quick Start]
+
 chmod 777 *.sh
+
 make
+
 
 
 [Automated Experiments]
